@@ -7,7 +7,7 @@ const mongoose =require('mongoose')
 const app =express()
 
 // connect to the mlab database
-mongoose.connect('mongodb+srv://ali:test123456@cluster0.1f0aa.mongodb.net/mdbData?retryWrites=true&w=majority')
+mongoose.connect('mongodb+srv://ali:test123456@cluster0.iqfd6.mongodb.net/gql-mdbData?retryWrites=true&w=majority')
 mongoose.connection.once('open',()=>{
     console.log('connected to database')
 })
